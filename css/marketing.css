@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    font-family: arial;
+    background-color: rgb(44, 95, 236);
+}
+h1{
+    color:white;
+    font: size 50px;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 4fr 1fr;
+        grid-template-rows: 1fr 4fr 1fr;
+        grid-template-areas: "nav nav nav"
+   "productos servicios extras"
+   "footer footer footer";
+    grid-gap: 10px;
+}
+.servicios{
+    background-color: bisque;
+}
+.productos{
+    background-color: bisque;
+}
+.ventas{
+    background-color: bisque;
+}

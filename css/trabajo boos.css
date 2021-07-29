@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+    background-color: rgb(139, 176, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, section{
+    margin: 10px;
+    padding: 20px;
+}
+h2{
+    background-color: royalblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.parrafo1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+table{
+    background-color: white;
+}
+form{
+    background-color: #a6c0486c;
+    font-family: cursive;
+}
+.imagendeperfil{
+    border-radius: 50%;
+    width: 100;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-position:inside;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-position: inside;
+    list-style: upper-roman;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    
+}
+main{ 
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color:rgba(95, 83, 12, 0.52);
+    height: 300px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.color{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 60px; 
+
+}
+.verde{
+    background: linear-gradient(to top, green, #fff, green);
+}
+.verde:hover{
+    transform: scale(1.5, 1.5);
+}
+.rojo{
+    background: linear-gradient(to top, red, #fff,red);
+}
+.rojo:hover{
+    transform: rotate(70deg);
+}
+.blanco{
+    background: radial-gradient(ellipse,black,#fff, red)
+}
+.blanco:hover{
+    transform: translate(50px, 20px);
+}
+.azul{
+    background:radial-gradient(circle, blue,#fff,blue)
+}
+.azul:hover{
+    transform:skew(25deg);
+}
+.celeste{
+    background:radial-gradient(circle, rgb(0, 255, 242),#fff,rgb(39, 221, 238))
+}
+.celeste:hover{
+    transform: scale(1.5, 1.5);
+}
+.bordo{
+    background-color: rgb(247, 132, 132);
+}
+.bordo:hover{
+    transform: scale(1.5, 1.5);
+}
+.arcor2:hover{
+    transform: scale(1.5, 1.5);
+}
+.sizecarousel{
+    width: 500px;
+    margin:0 auto;
+}
+  

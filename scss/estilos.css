@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #0c22ee;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.imagendeperfil {
+  width: 250px;
+  border-radius: 1500px;
+}
+
+h2 {
+  background-color: royalblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.parrafo1 {
+  text-align: center;
+}
+
+.sizecarousel {
+  width: 500px;
+  margin: auto;
+}
+
+ul {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style-position: inside;
+  font-size: 20px;
+  margin: 30px;
+  padding: 30px;
+}
+
+table {
+  background-color: #5a5555;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+form {
+  margin: 20px;
+  background-color: #6569586c;
+  font-family: cursive;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #020a4b;
+  height: 300px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.color {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.verde:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(green), color-stop(#fff), to(green));
+  background: linear-gradient(to top, green, #fff, green);
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  color: #000;
+}
+
+.rojo:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(red), color-stop(#fff), to(red));
+  background: linear-gradient(to top, red, #fff, red);
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  color: #000;
+}
+
+.blanco:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(red), color-stop(#fff), to(red));
+  background: linear-gradient(to top, red, #fff, red);
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  color: #000;
+}
+
+.azul:hover {
+  background: radial-gradient(circle, blue, #fff, blue);
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  color: #000;
+}
+
+.celeste:hover {
+  background: radial-gradient(circle, #00fff2, #fff, #27ddee);
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  color: #000;
+}
+
+.bordo:hover {
+  background-color: #f78484;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  color: #000;
+}
+/*# sourceMappingURL=estilos.css.map */
