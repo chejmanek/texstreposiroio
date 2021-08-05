@@ -9,11 +9,6 @@ body {
   color: #fff;
 }
 
-.imagendeperfil {
-  width: 250px;
-  border-radius: 1500px;
-}
-
 h2 {
   background-color: royalblue;
   color: white;
@@ -23,6 +18,10 @@ h2 {
 }
 
 .parrafo1 {
+  text-align: center;
+}
+
+.parrafo2 {
   text-align: center;
 }
 
