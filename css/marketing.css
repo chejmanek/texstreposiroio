@@ -6,32 +6,40 @@
 body{
     font-family: arial;
     background-color: rgb(44, 95, 236);
+    color: blanchedalmond;
 }
 h1{
     color:white;
     font: size 50px;
 }
+.fotoportada{
+    display: flex;
+    justify-content: center;
+    width: 0 20px;
+    height: auto;
+}
 .contenedor {
     width: 90%;
-    max-width: 1000px;
+    max-width: 500px;
     margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 1fr 4fr 1fr;
         grid-template-rows: 1fr 4fr 1fr;
-        grid-template-areas: "nav nav nav"
-   "productos servicios extras"
-   "footer footer footer";
+        grid-template-areas:
+        "productos negocios prensa publicidad"
+        "footer footer footer footer";
     grid-gap: 10px;
 }
-.servicios{
-    background-color: bisque;
+footer .titulo-seccion{
+   color:white
 }
-.productos{
-    background-color: bisque;
-}
-.ventas{
-    background-color: bisque;
+.redes-socilales{
+    display: flex;
+    justify-content: center;
 }
