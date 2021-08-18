@@ -18,23 +18,13 @@ h1{
     width: 0 20px;
     height: auto;
 }
-.contenedor {
-    width: 90%;
-    max-width: 500px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr 4fr 1fr;
-        grid-template-rows: 1fr 4fr 1fr;
-        grid-template-areas:
-        "productos negocios prensa publicidad"
-        "footer footer footer footer";
-    grid-gap: 10px;
+.caja{ 
+    width: 45%;
+    padding: 1rem;
+    display: block;
+    border: 1px solid#999;
+    box-sizing: border-box;
+    text-align: center;
 }
 footer .titulo-seccion{
    color:white
