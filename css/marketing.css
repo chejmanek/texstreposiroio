@@ -21,15 +21,14 @@ h1{
 .caja{ 
     width: 45%;
     padding: 1rem;
-    display: block;
+    display: inline-block;
     border: 1px solid#999;
     box-sizing: border-box;
     text-align: center;
+    margin: 1rem;
 }
-footer .titulo-seccion{
-   color:white
-}
-.redes-socilales{
-    display: flex;
-    justify-content: center;
+footer{
+    background-color: rgb(37, 89, 245);
+    text-decoration: underline;
+    text-align: center;
 }
