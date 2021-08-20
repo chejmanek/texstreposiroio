@@ -30,6 +30,9 @@ footer{
     width: 100%;
     background-color: rgb(7, 31, 104);
     text-decoration: underline;
-    text-align: center;
-    
+    text-align: center;   
+}
+.fab:hover{
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
 }
