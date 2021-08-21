@@ -2,28 +2,39 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   background-color: #0c22ee;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
 }
+
 h2 {
   background-color: royalblue;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
   text-align: center;
+  padding: 1rem;
 }
+
 .parrafo1 {
   text-align: center;
+  width: 45%;
+  padding: 1rem;
+  display: inline-block;
+  margin: 1rem;
 }
+
 .parrafo2 {
   text-align: center;
 }
+
 .sizecarousel {
   width: 500px;
   margin: auto;
 }
+
 ul {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   list-style-position: inside;
@@ -31,17 +42,21 @@ ul {
   margin: 30px;
   padding: 30px;
 }
+
 table {
   background-color: #5a5555;
   font-size: 20px;
   margin: 20px;
   padding: 20px;
 }
+
 form {
   margin: 20px;
   background-color: #6569586c;
   font-family: cursive;
+  padding: 1rem 1rem;
 }
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,6 +78,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .color {
   width: 200px;
   height: 100px;
@@ -71,43 +87,9 @@ main {
   text-align: center;
   padding-top: 60px;
 }
-.verde:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(green), color-stop(#fff), to(green));
-  background: linear-gradient(to top, green, #fff, green);
+
+.fab:hover {
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
-  color: #000;
-}
-.rojo:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(red), color-stop(#fff), to(red));
-  background: linear-gradient(to top, red, #fff, red);
-  -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
-  color: #000;
-}
-.blanco:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(red), color-stop(#fff), to(red));
-  background: linear-gradient(to top, red, #fff, red);
-  -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
-  color: #000;
-}
-.azul:hover {
-  background: radial-gradient(circle, blue, #fff, blue);
-  -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
-  color: #000;
-}
-.celeste:hover {
-  background: radial-gradient(circle, #00fff2, #fff, #27ddee);
-  -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
-  color: #000;
-}
-.bordo:hover {
-  background-color: #f78484;
-  -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
-  color: #000;
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -8,9 +8,7 @@
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 4fr 1fr;
       grid-template-rows: 1fr 4fr 1fr;
-      grid-template-areas: "nav nav nav"
- "productos servicios extras"
- "footer footer footer";
+      grid-template-areas: "nav nav nav" "productos servicios extras" "footer footer footer";
   grid-gap: 10px;
 }
 

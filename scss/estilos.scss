@@ -23,15 +23,6 @@ h2{
     margin: 1rem;
     
 }
-.general{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-.general img{
-    width: 250px;
-    height: 300px;
-}
 .parrafo2{
     text-align: center;
 }
@@ -76,34 +67,38 @@ main{
     text-align: center;
     padding-top: 60px;
 }
-.verde:hover{
-    background: linear-gradient(to top, green, #fff, green);
+.fab:hover{
     transform: scale(1.5, 1.5);
-    color: #000; 
 
 }
-.rojo:hover{
-    background: linear-gradient(to top, red, #fff,red);
-    transform: scale(1.5, 1.5);
-    color: #000; 
-} 
-.blanco:hover{
-        background: linear-gradient(to top, red, #fff,red);
-        transform: scale(1.5, 1.5);
-        color: #000; 
-}
-.azul:hover{
-    background:radial-gradient(circle, blue,#fff,blue);
-    transform: scale(1.5, 1.5);
-    color: #000; 
-}
-.celeste:hover{
-    background:radial-gradient(circle, rgb(0, 255, 242),#fff,rgb(39, 221, 238));
-    transform: scale(1.5, 1.5);
-    color: #000; 
-}
-.bordo:hover{
-    background-color: rgb(247, 132, 132);
-    transform: scale(1.5, 1.5);
-    color: #000; 
-}
+// .verde:hover{
+//     background: linear-gradient(to top, green, #fff, green);
+//     transform: scale(1.5, 1.5);
+//     color: #000; 
+
+// }
+// .rojo:hover{
+//     background: linear-gradient(to top, red, #fff,red);
+//     transform: scale(1.5, 1.5);
+//     color: #000; 
+// } 
+// .blanco:hover{
+//         background: linear-gradient(to top, red, #fff,red);
+//         transform: scale(1.5, 1.5);
+//         color: #000; 
+// }
+// .azul:hover{
+//     background:radial-gradient(circle, blue,#fff,blue);
+//     transform: scale(1.5, 1.5);
+//     color: #000; 
+// }
+// .celeste:hover{
+//     background:radial-gradient(circle, rgb(0, 255, 242),#fff,rgb(39, 221, 238));
+//     transform: scale(1.5, 1.5);
+//     color: #000; 
+// }
+// .bordo:hover{
+//     background-color: rgb(247, 132, 132);
+//     transform: scale(1.5, 1.5);
+//     color: #000; 
+// }
