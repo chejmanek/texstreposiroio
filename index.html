@@ -15,7 +15,27 @@
     <title>GRUPO ARCOR🍬</title>
 </head>
 <body>
-    <header class="header">
+       <!-- menu de navegacion desde bootstrap responsive  -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark navba">
+        <a class="navbar-brand" href="index.html">
+         <img src="./imagenes/arcor.jpg" alt="" width="40" height="30" class="d-inline-block align-text-top">
+        </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" 
+         data-target="#navbarTogglerDemo01" aria-controls="#navbarTogglerDemo01" 
+         aria-expanded="false" aria-label="toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+             <div class="navbar-nav ml-auto">
+               <a class="nav-link" aria-current="page" href="#marketing.html">marketing</a>
+               <a class="nav-link" href="#ayuda.html">servicios</a>
+               <a class="nav-link" href="#servicios.html">ayuda</a>
+               <a class="nav-link" href="#Contactame" tabindex="-1" aria-disabled="true">Contactame</a>
+             </div>
+           </div>
+        
+    </nav>
+    <!-- <header class="header">
     <h1><img class="imagendeperfil" src="imagenes/arcor.jpg" width="100%" height="500" alt="imagene"></h1>
     </header>
     <br>
@@ -31,9 +51,10 @@
           <li><a class="dropdown-menu-dark--dropdown-item" href="ayuda.html">ayuda</a></li>
           </ul>
         </div>
-    </section>
+    </section>  -->
+    <div class="container">
     <br>
-    <section>
+    <section>    
         <h2>¿Quienes somos?</h2>
         <div>
             <p class="parrafo1">NACIMOS EN ARGENTINA, CRECIMOS EN LATINOAMÉRICA Y NUESTRO     MERCADO ES EL MUNDO.
@@ -45,8 +66,8 @@
             </p>
         </div>
     </section>
-    <div class="general">
-        <img src="./imagenes/1972.jpg" alt="¿quienes somos?">
+    <div class="row justify-content-around">
+        <img src="./imagenes/1972.jpg" width="50px" alt="¿quienes somos?">
     </div>
     <br></br>
     <section>
@@ -109,7 +130,7 @@
     <br>
     <section>
         <h2>Exportaciones </h2>
-        <div>
+        <div class="row justify-content-around">
             <table border= "6">
                 <tr>
                    <th>Latinoamerica</th>
