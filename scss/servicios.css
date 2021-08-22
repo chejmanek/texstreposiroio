@@ -126,7 +126,7 @@
   color: #000000;
 }
 
-.extras {
+.Ventas {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: extras;
@@ -135,11 +135,11 @@
   padding: 1rem;
 }
 
-.extras h2 {
+.Ventas h2 {
   color: #f51010;
 }
 
-.extras p {
+.Ventas p {
   color: #000000;
 }
 
